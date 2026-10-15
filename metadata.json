@@ -1,0 +1,6 @@
+{
+  "name": "PDF Studio Pro",
+  "description": "Professional browser-based PDF editor to edit, organize, annotate, convert, optimize, protect, and analyze PDF documents with AI assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
