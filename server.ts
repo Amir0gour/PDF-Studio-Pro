@@ -232,6 +232,11 @@ Do not omit words, numbers, or punctuation. Output only the extracted text.`,
   }
 });
 
+// Google site verification route
+app.get('/googlef7723488f28ac852.html', (_req, res) => {
+  res.type('text/html').send('google-site-verification: googlef7723488f28ac852.html');
+});
+
 // Setup Vite middleware or static serving
 async function startServer() {
   const isProd = process.env.NODE_ENV === 'production';
